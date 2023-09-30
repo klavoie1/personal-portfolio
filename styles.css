@@ -48,7 +48,7 @@ body, html {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: #EDF2F4;
+    background-color: #2B2D42;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.8s ease;
@@ -57,4 +57,36 @@ body, html {
 .nav-links a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+.home {
+    height: 100vh;
+    background-color: #2B2D42;
+    background-size: cover;
+    background-position: center;
+    color: #EF233C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size: 80px;
+}
+
+.line {
+    width: 1000px;
+    height: 2px;
+    background-color: #8D99AE;
+    margin: 20px auto;
+}
+
+.content {
+    background-color: #8D99AE; /* Change this to your desired background color */
+}
+
+.content p {
+    font-size: 30px;
+    text-align: center;
 }
